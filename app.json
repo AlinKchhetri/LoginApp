@@ -3,6 +3,8 @@
     "name": "Login",
     "slug": "Login",
     "version": "1.0.0",
+    "privacy": "public",
+    "description": "Simple Login App. Username:admin, Password:admin",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -17,13 +19,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.alinkhatri.Login"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.alinkhatri.Login"
     },
     "web": {
       "favicon": "./assets/favicon.png"
